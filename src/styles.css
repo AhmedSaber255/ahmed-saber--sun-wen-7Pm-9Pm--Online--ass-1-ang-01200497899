@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --background-color: #1abc9c;
+  --secondary-color: #2C3E50;
+  --secondary-color-dark: #1A252F;
+}
+.bg-app-main{
+    background-color: var(--background-color);
+}
+.bg-app-secondary{
+    background-color: var(--secondary-color);
+}
+.bg-app-secondary-dark{
+    background-color: var(--secondary-color-dark);
+}

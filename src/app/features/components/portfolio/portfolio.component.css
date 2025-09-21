@@ -1,0 +1,25 @@
+.col-md-4 .layer {
+ 
+    background-color: rgba(26, 188, 156, 0);
+    transition: 0.5s;
+}
+.col-md-4 i {
+    font-size: 75px;
+ opacity: 0;
+    transition: 0.5s;
+}
+
+.col-md-4:hover .layer {
+ 
+    background-color:rgba(26, 188, 156, 0.9) ;
+}
+.col-md-4:hover i {
+ opacity: 1;
+}
+.col-md-4 {
+    cursor: pointer; 
+}
+.lightboxcontainer {
+ z-index: 1031;
+}
+
